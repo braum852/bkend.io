@@ -16,3 +16,7 @@ end
 # PATCH  /api/v1/events/:id(.:format)                                                                      api/v1/events#update
 # PUT    /api/v1/events/:id(.:format)                                                                      api/v1/events#update
 # DELETE /api/v1/events/:id(.:format)                                                                      api/v1/events#destroy
+
+# api_v1_users POST   /api/v1/users(.:format)                                                                           api/v1/users#create
+# api_v1_login POST   /api/v1/login(.:format)                                                                           api/v1/auth#create
+# api_v1_profile GET    /api/v1/profile(.:format)                                                                         api/v1/users#profile
